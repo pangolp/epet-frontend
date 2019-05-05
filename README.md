@@ -5,3 +5,4 @@ Este repositorio tiene como único objetivo, poder presentar de manera visual, u
 ### Documentación
 
 * [Bootstrap](https://getbootstrap.com/)
+* [Web](https://pangolp.github.io/epet-frontend/)
