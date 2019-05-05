@@ -27,13 +27,18 @@
 	background: #2d3436;
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
-}
+	padding-top: 2em;
+	padding-bottom: 1em;
+}	
 
 #footer p {
 	vertical-align: middle;
 	font-weight: bold;
-	padding-bottom: 0;
-	margin-bottom: 0;
+}
+
+#footer a {
+	color: #fff;
+	padding-right: 1em;
 }
 
 .row {
