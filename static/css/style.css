@@ -19,6 +19,14 @@
 	background: #dfe4ea;
 }
 
+#novedadDetalle {
+	background: #ced6e0;
+}
+
+#novedadDetalle h6 {
+	font-weight: bold;
+}
+
 #novedades h6 {
 	font-weight: bold;
 }
