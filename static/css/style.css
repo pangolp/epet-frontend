@@ -16,6 +16,10 @@
 	.container {
 		font-size: medium;
 	}
+
+	#footer_info {
+		padding-top: 1em;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
