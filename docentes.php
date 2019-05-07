@@ -8,60 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/style.css">
-    <title>Taller</title>
+    <title>Docentes</title>
   </head>
   <body>
-    <!-- header -->
-    <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand mx-auto" href="index.html"><i class="fas fa-graduation-cap"></i> Epet 20</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon" id="span"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="institucional.html">Institucional</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="teoria.html">Teoria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="taller.html">Taller</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="docentes.html">Docentes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Biblioteca</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Secretaria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Asesoria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Alumnos</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
-    <!-- /header -->
+    <?php include('menu.php') ?>
     <!-- container -->
     <section id="container" class="pt-3 pb-3 section">
       <div class="row">
         <div class="container">
           <div class="jumbotron">
-            <h1 class="display-4">Taller</h1>
-            <p class="lead">En esta sección del sitio, usted podrá encontrar material relacionado a los talleres.</p>
+            <h1 class="display-4">Docentes</h1>
+            <p class="lead">En esta sección del sitio, usted podrá encontrar documentación referida a los docentes.</p>
             <hr class="my-4">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
@@ -71,92 +28,58 @@
         <div class="container">
           <div class="table-responsive">
             <table class="table table-sm table-bordered text-center">
-              <caption>Plan 011 - Ciclo Basico - Año 01</caption>
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Talleres</th>
-                  <th scope="col">Programa</th>
-                  <th scope="col">Carpeta</th>
-                  <th scope="col">Previos</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Enlace</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">1</th>
-                  <td>Ajuste</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <td>Planilla De Seguimiento 2018</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
                   <th scope="row">2</th>
-                  <td>Carpinteria</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <td>Informe final de curso</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
                   <th scope="row">3</th>
-                  <td>Electricidad</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <td>Resolución Nº 1172/12</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
                   <th scope="row">4</th>
-                  <td>Hojalateria</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <td>Resolución Nº 1062/12 - I parte - TAREAS Y FUNCIONES</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          <div class="table-responsive">
-            <table class="table table-sm table-bordered text-center">
-              <caption>Plan 011 - Ciclo Basico - Año 02</caption>
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Talleres</th>
-                  <th scope="col">Programa</th>
-                  <th scope="col">Carpeta</th>
-                  <th scope="col">Previos</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Ajuste</td>
-                  <td><i class="far fa-file-pdf"></i></td>
-                  <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
-                  <th scope="row">2</th>
-                  <td>Electricidad</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <th scope="row">5</th>
+                  <td>Resolución Nº 1062/12 - II parte - TAREAS Y FUNCIONES</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Soldadura</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <th scope="row">6</th>
+                  <td>Resolución Nº 1062/12 - II i parte - TAREAS Y FUNCIONES</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
                 </tr>
                 <tr>
-                  <th scope="row">4</th>
-                  <td>Torneria</td>
-                  <td><i class="far fa-file-pdf"></i></td>
+                  <th scope="row">7</th>
+                  <td>Resolución Nº 1062/12 - III parte - TAREAS Y FUNCIONES</td>
                   <td><i class="fas fa-book"></i></td>
-                  <td><i class="fas fa-file-upload"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Resolución Nº 1592/12</td>
+                  <td><i class="fas fa-book"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Resolución Nº 151/10</td>
+                  <td><i class="fas fa-book"></i></td>
                 </tr>
               </tbody>
             </table>
@@ -189,8 +112,8 @@
         </div>
       </div>
       <div class="container">
-        <div class="row text-center" id="footer_info">
-          <div class="col">
+        <div class="row text-center">
+          <div class="col" id="footer_info">
             <p>Creado y diseñado por el equipo de desarrollo del epet 20.</p>
           </div>
         </div>
