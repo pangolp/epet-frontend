@@ -45,58 +45,27 @@
         <div class="row pt-2">
           <div class="col-12 col-md">
             <h6 class="text-center mt-1 alert alert-primary">Novedad 1</h6>
-            <img src="static/img/novedad_1.jpg" class="img-fluid mb-1" alt="">
+            <img src="static/img/novedad_1.jpg" class="img-fluid mb-1" alt="novedad_1">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.html" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
           </div>
           <div class="col-12 col-md">
             <h6 class="text-center mt-1 alert alert-primary">Novedad 2</h6>
-            <img src="static/img/novedad_2.jpg" class="img-fluid mb-1" alt="">
+            <img src="static/img/novedad_2.jpg" class="img-fluid mb-1" alt="novedad_2">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.html" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
           </div>
           <div class="col-12 col-md">
             <h6 class="text-center mt-1 alert alert-primary">Novedad 3</h6>
-            <img src="static/img/novedad_3.jpg" class="img-fluid mb-1" alt="">
+            <img src="static/img/novedad_3.jpg" class="img-fluid mb-1" alt="novedad_3">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.html" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
           </div>
         </div>
     </div>
     </section>
     <!-- /container -->
-    <!-- footer -->
-    <footer id="footer">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-md">
-            <p>Lanín 2020 - Tel. (0299) - 4478052</p>
-          </div>
-          <div class="col-12 col-md">
-            <a href="https://www.facebook.com/EPET20" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col" id="footer_info">
-            <p>Creado y diseñado por el equipo de desarrollo del epet 20.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- /footer -->
+    <?php include('footer.php') ?>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
