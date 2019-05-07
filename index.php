@@ -47,19 +47,19 @@
             <h6 class="text-center mt-1 alert alert-primary">Novedad 1</h6>
             <img src="static/img/novedad_1.jpg" class="img-fluid mb-1" alt="novedad_1">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad" class="btn btn-dark mb-3">Leer mas</a>
           </div>
           <div class="col-12 col-md">
             <h6 class="text-center mt-1 alert alert-primary">Novedad 2</h6>
             <img src="static/img/novedad_2.jpg" class="img-fluid mb-1" alt="novedad_2">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad" class="btn btn-dark mb-3">Leer mas</a>
           </div>
           <div class="col-12 col-md">
             <h6 class="text-center mt-1 alert alert-primary">Novedad 3</h6>
             <img src="static/img/novedad_3.jpg" class="img-fluid mb-1" alt="novedad_3">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="novedad.php" class="btn btn-dark mb-3">Leer mas</a>
+            <a href="novedad" class="btn btn-dark mb-3">Leer mas</a>
           </div>
         </div>
     </div>
