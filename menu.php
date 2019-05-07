@@ -15,7 +15,7 @@
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarInstitucional">
                     <a class="dropdown-item" href="institucional">Autoridades</a>
-                    <a class="dropdown-item" href="#">Historia</a>
+                    <a class="dropdown-item" href="historia">Historia</a>
                     <a class="dropdown-item" href="#">Misión las autoridades</a>
                   </div>
                 </li>
