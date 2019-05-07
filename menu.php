@@ -2,7 +2,7 @@
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container">
-            <a class="navbar-brand mx-auto text-white" href="http://test.epet20.com.ar/"><i class="fas fa-graduation-cap"></i> Epet 20</a>
+            <a class="navbar-brand mx-auto text-white" href="https://test.epet20.com.ar/"><i class="fas fa-graduation-cap"></i> Epet 20</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon" id="span"></span>
             </button>
